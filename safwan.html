@@ -1,10 +1,142 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My First GitHub Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Safwan | Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    /* HEADER */
+    header {
+      width: 100%;
+      padding: 20px 50px;
+      background: #ffffff;
+      position: fixed;
+      top: 0;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      z-index: 1000;
+    }
+
+    header h2 {
+      font-weight: 700;
+      color: #2b4eff;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0 40px;
+      text-align: center;
+      background: linear-gradient(135deg, #2b4eff, #6a77ff);
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    .hero p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #fff;
+      color: #2b4eff;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #e3e3e3;
+    }
+
+    /* ABOUT SECTION */
+    .about {
+      padding: 80px 50px;
+      text-align: center;
+    }
+
+    .about h2 {
+      font-size: 2rem;
+      color: #2b4eff;
+      margin-bottom: 10px;
+    }
+
+    .about p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto;
+      margin-top: 15px;
+    }
+
+    /* FOOTER */
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      background: #2b4eff;
+      color: white;
+      text-align: center;
+    }
+
+  </style>
 </head>
+
 <body>
-  <h1>Hello, GitHub Pages!</h1>
-  <p>This is my first live website.</p>
+
+  <header>
+    <h2>Safwan Portfolio</h2>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div>
+      <h1>Welcome to My Website</h1>
+      <p>I am Safwan — a Frontend Developer learning Full Stack Web Development.</p>
+
+      <a href="#about" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>
+      I am Muhammad Safwan, a passionate Frontend Developer aiming to become a Full Stack Web Developer.
+      I am building my skills in JavaScript, React, Node.js and modern web technologies.
+    </p>
+  </section>
+
+  <footer>
+    © 2025 Safwan — All Rights Reserved.
+  </footer>
+
 </body>
 </html>
+
